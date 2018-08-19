@@ -6,6 +6,13 @@ int func1(void)
 	return 1;
 }
 
+int func2(void)
+{
+	printf("func2\n");
+	return 1;
+}
+
+
 int main(int argc, char **argv)
 {
 	func1();
